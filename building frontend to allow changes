@@ -1,0 +1,13 @@
+
+cd frontend 
+
+if proxies and ssl issues are present :
+ yarn config set strict-ssl false
+
+
+yarn install to ensure packages are good 
+yarn build afterward 
+
+running the ui : 
+
+autogenstudio ui --port 8081
